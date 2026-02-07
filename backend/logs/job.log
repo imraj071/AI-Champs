@@ -1,0 +1,24 @@
+2026-02-08 02:14:12,128 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-08 02:14:12,129 - INFO - Added job "<lambda>" to job store "default"
+2026-02-08 02:14:12,129 - INFO - Scheduler started
+2026-02-08 02:15:12,136 - INFO - Running job "<lambda> (trigger: interval[0:01:00], next run at: 2026-02-08 02:15:12 IST)" (scheduled at 2026-02-08 02:15:12.128349+05:30)
+2026-02-08 02:15:12,137 - INFO - Job Started
+2026-02-08 02:15:12,377 - INFO - Job Completed
+2026-02-08 02:15:12,377 - INFO - Job "<lambda> (trigger: interval[0:01:00], next run at: 2026-02-08 02:16:12 IST)" executed successfully
+2026-02-08 02:16:12,140 - INFO - Running job "<lambda> (trigger: interval[0:01:00], next run at: 2026-02-08 02:17:12 IST)" (scheduled at 2026-02-08 02:16:12.128349+05:30)
+2026-02-08 02:16:12,141 - INFO - Job Started
+2026-02-08 02:16:12,177 - INFO - Job Completed
+2026-02-08 02:16:12,177 - INFO - Job "<lambda> (trigger: interval[0:01:00], next run at: 2026-02-08 02:17:12 IST)" executed successfully
+2026-02-08 02:17:12,139 - INFO - Running job "<lambda> (trigger: interval[0:01:00], next run at: 2026-02-08 02:18:12 IST)" (scheduled at 2026-02-08 02:17:12.128349+05:30)
+2026-02-08 02:17:12,140 - INFO - Job Started
+2026-02-08 02:17:12,170 - INFO - Job Completed
+2026-02-08 02:17:12,170 - INFO - Job "<lambda> (trigger: interval[0:01:00], next run at: 2026-02-08 02:18:12 IST)" executed successfully
+2026-02-08 02:19:22,883 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-08 02:19:22,884 - INFO - Added job "SchedulerService.start.<locals>.<lambda>" to job store "default"
+2026-02-08 02:19:22,884 - INFO - Scheduler started
+2026-02-08 02:20:00,009 - INFO - Running job "SchedulerService.start.<locals>.<lambda> (trigger: cron[day_of_week='sun', hour='2', minute='20'], next run at: 2026-02-08 02:20:00 IST)" (scheduled at 2026-02-08 02:20:00+05:30)
+2026-02-08 02:20:00,009 - INFO - Job Started
+2026-02-08 02:20:00,231 - INFO - Job Completed
+2026-02-08 02:20:00,231 - INFO - Job "SchedulerService.start.<locals>.<lambda> (trigger: cron[day_of_week='sun', hour='2', minute='20'], next run at: 2026-02-15 02:20:00 IST)" executed successfully
+2026-02-08 02:25:57,487 - INFO - Job Started
+2026-02-08 02:25:57,719 - INFO - Job Completed
