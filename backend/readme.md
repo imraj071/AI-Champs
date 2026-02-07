@@ -3,15 +3,14 @@
 backend/
 │
 ├── app/
-│   ├── api/               → HTTP endpoints
-│   ├── core/              → Job engine + config mapping
-│   ├── domain/            → Rules & Pydantic models
-│   ├── services/          → Excel, File, Logging, Scheduler logic
-│   ├── infrastructure/    → DB connection & repositories
+│   ├── api/               
+│   ├── core/              
+│   ├── domain/           
+│   ├── services/          
+│   ├── infrastructure/    
 │
-├── logs/                  → Job execution logs
-├── main.py                → FastAPI app entry
-
+├── logs/                  
+├── main.py                
 
 ## Architecture 
 
