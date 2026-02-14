@@ -1,8 +1,11 @@
 import logging
+import asyncio
+from app.core.log_stream import log_stream_manager
 
 class LoggingService:
 
-    def __init__(self, file="logs/job.log"):
+    def __init__(self, job_id: int, file="logs/job.log"):
+        self.job_id = job_id
         logging.basicConfig(
             filename=file,
             level=logging.INFO,
@@ -10,4 +13,13 @@ class LoggingService:
         )
 
     def log(self, message: str):
-        logging.info(message)
+        formatted = f"[Job {self.job_id}] {message}"
+        logging.info(formatted)
+
+        try:
+            loop = asyncio.get_event_loop()
+            loop.create_task(
+                log_stream_manager.push(self.job_id, formatted)
+            )
+        except RuntimeError:
+            pass
